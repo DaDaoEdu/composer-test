@@ -8,4 +8,9 @@ class Benz
     {
         echo "This is Benz Car.<br />";
     }
+
+    public static function product()
+    {
+    	echo "It is Japan product.<br />";
+    }
 }
