@@ -1,0 +1,14 @@
+{
+    "name": "dadaoedu/composer-test",
+    "description": "test for composer packagist",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DaDaoEdu\\Car\\": "src/DaDaoEdu/Car",
+            "DaDaoEdu\\Car\\Wheel\\": "src/DaDaoEdu/Car/Wheel"
+        }
+    }
+}
